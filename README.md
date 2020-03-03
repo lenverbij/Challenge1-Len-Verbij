@@ -46,3 +46,4 @@ rgba(0, 82, 136, 0.8) (Articles)
 Logo: SpaceX logo
 
 ## Javascript
+Voor de Javascript heb ik gebruik gemaakt van Charts.js. Charts.js is een makkelijke manier om datavisualisaties te maken zonder ingewikkelde javascript. 
