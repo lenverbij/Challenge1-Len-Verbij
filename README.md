@@ -18,6 +18,7 @@ Ik heb ook een footer toegevoegd aan de website. De footer is 'sticky' dus het b
 Veranderingen van de content bij breakpoint.
 
 De breakpoints zijn:
+
 500px
 Zwaartekracht datavisualisatie
 Zwaartekracht in het menu
