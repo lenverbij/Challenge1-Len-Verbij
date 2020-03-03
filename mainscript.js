@@ -22,7 +22,7 @@ function functionDistance(){
         datasets:[{
           label:'KM',
           data:[
-            120//dit is de huide afstand van de shuttle.
+            120//dit is de huidige afstand van de shuttle.
           ],
           backgroundColor:[
             '#FFFFFF'
@@ -78,7 +78,7 @@ function functionSpeed(){
           label:'km/h',
           data:[
             13678,//Dit side snelheid die je kan aanpassen
-            6322//max-snelheid in km/h
+            6322//hoeveelheid voordat de max-snelheid in km/h bereikt is
           ],
           backgroundColor:[
             '#FFF',
@@ -107,7 +107,7 @@ function functionSpeed(){
 
 function functionAcceleration(){
     
-    //Dit is de code voor de G kracht
+    //Dit is de code voor de acceleratie
     var accelerationChart = document.getElementById('acceleration').getContext('2d');
 
     Chart.defaults.global.defaultFontSize = 16;
@@ -121,7 +121,7 @@ function functionAcceleration(){
           label:'',
           data:[
               
-            // G kracht van momenten tijdens de vlucht. voel vrij om de waardes aan te passen.
+            // momenten van m/s over een span van 800 seconden
             10,
             37,
             39,
@@ -190,7 +190,7 @@ function functionGravity(){
           label:'Newton',
           data:[
             9.807,
-            1.201,//Waarde van de shuttle. Je kan het veranderen
+            7.567,//Waarde van de shuttle. Je kan het veranderen
             3.711
           ],
           backgroundColor:[
